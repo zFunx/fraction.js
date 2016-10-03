@@ -1,5 +1,5 @@
 # fraction.js
-A javascript library for Fractions.
+A javascript library for math Fractions.
 ## Setup
 ~~~html
 <script src="fraction.js"></script>
