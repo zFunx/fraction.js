@@ -90,36 +90,29 @@ Fraction.addReciprocals([frac1,"1/6",0.3]);//You can pass array too
 ~~~
 ### Comparing Fractions
 ~~~javascript
-//is frac1=frac2?
-frac1.equals(frac2);
-Fraction.equals(frac1,frac2);
+//is frac1=frac2? 
+frac1.equals(frac2); 
+Fraction.equals(frac1,frac2); 
+//do not use frac1==frac2 
 
-//is frac1>frac2?
-frac1.isGreaterThan(frac2);
-Fraction.isGreaterThan(frac1,frac2);
-
-//is frac1<frac2?
-frac1.isLessThan(frac2);
-Fraction.isLessThan(frac1,frac2);
-
-//You can even pass numbers and Fraction in string
+//general comparisons 
+frac1>frac2; 
+frac1<frac2; 
+frac1>=frac2; 
+frac1<=frac2
 ~~~
 ### Comparing Fraction to a number
 ~~~javascript
-//is frac1=number?
-frac1==0.3;
-frac1.equals(0.3);
-Fraction.equals(frac1,0.3);
+//is frac1=number? 
+frac1==0.3; 
+frac1.equals(0.3); 
+Fraction.equals(frac1,0.3); 
 
-//is frac1>number?
-frac1>0.3;
-frac1.isGreaterThan(0.3);
-Fraction.isGreaterThan(frac1,0.3);
-
-//is frac1<number?
-frac1<0.3;
-frac1.isLessThan(0.3);
-Fraction.isLessThan(frac1,0.3);
+//general comparisons 
+frac1>0.3; 
+frac1<0.3; 
+frac1>=0.3; 
+frac1<=0.3;
 ~~~
 ### Get Remainder
 ~~~javascript
